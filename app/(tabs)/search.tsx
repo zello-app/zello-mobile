@@ -1,11 +1,9 @@
 import { StyleSheet, Text, View } from "react-native";
 
-export default function HomeScreen() {
-  console.log("HomeScreen");
-
+export default function ScheduleScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.titleContainer}>Zello</Text>
+      <Text style={styles.titleContainer}>Busca Zello</Text>
     </View>
   );
 }
